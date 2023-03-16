@@ -1,0 +1,84 @@
+.profile-info {
+    border-bottom: 1px solid rgb(215, 215, 215);
+    display:flex;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.profile-info-secondary-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-info-primary-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.profile-picture {
+    margin-right: 1.8rem;
+}
+
+input {
+    width: 100%;
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 4px;
+    padding: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#cancel-btn {
+    margin-right: 1.5rem;
+}
+
+.submit-cancel-btn {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 2rem;
+}
+
+/* TABLE */
+
+.order-table {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table td, .order-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border:none;
+  }
+
+.order-table th {
+  font-weight: 700;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.order-table tr:hover {
+    background-color: #ddd;
+}

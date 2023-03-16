@@ -1,0 +1,269 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+.nav-container {
+    max-width: 100%;
+    margin: 2rem auto 2rem;
+}
+
+a {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+} 
+
+ul {
+    list-style: none;
+}
+
+/* Navbar */
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+header.nav-container.row {
+    padding: 0 8rem;
+}
+
+header {
+justify-content: space-between;
+align-items: center;
+padding: .8rem;
+}
+
+header ul {
+    gap: 2em;
+}
+
+.navigation {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.primary-list {
+    margin: 0 auto;
+}
+
+.secondary-list {
+    margin: 0;
+}
+
+.nav-bottom-border {
+    padding: 2rem;
+    background-color: black;
+}
+
+
+/* HERO SECTION */ 
+
+.hero-content {
+    width: 100%;
+    margin-left: 8rem;
+}
+
+section {
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+section.container.hero.row {
+    background-image: url(media/media_index/hero-section_IMG.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+
+/* BRAND SECTION */ 
+
+.brand-img {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 4rem 2rem;
+}
+
+section.our-brand {
+    margin: 1rem 8rem;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding: 1.5em 0;
+}
+
+/* ARRIVALS SECTION */ 
+
+.arrivals-img {
+    margin: 4rem 2rem;
+}
+
+section.arrivals {
+    margin: 1rem 8rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+/* IN ACTION SECTION */ 
+
+.action-content {
+    width: 100%;
+    margin-left: 8rem;
+}
+
+section {
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+section.container.action.row {
+    filter: grayscale(100);
+    background-image: url(media/media_index/our-prod-in-action_GIF.gif);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 100%;
+}
+
+/* SPONSORS SECTION */ 
+
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sponsors h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* H1 */
+h1
+{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-weight: 700;
+    font-size: 55pt;
+    color: black;
+}
+
+.our-products h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.action-content h1 {
+    font-family: 'Zilla Slab', sans-serif;
+    color: white;
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+/* H2 */
+
+h2 {
+    font-family: 'Zilla Slab Highlight';
+    font-weight: 400;
+    font-size: 35pt;
+    color: black;
+}
+
+h2 .left-text {
+    display: flex;
+    justify-content: right;
+    align-content: right;
+}
+
+.hero-content h2 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+/* P1 */
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: black;
+}
+
+.p-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    color: black;
+}
+
+.our-products p {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.action-content p {
+    color: white;
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+/* P2 */
+
+.p2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: black;
+}
+
+.profile-info .p2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: grey;
+}
+
+/* BUTTONS */
+
+.btn-fill {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12pt;
+    background-color: black;
+    color: white;
+    padding: 14pt;
+    margin-top: 2rem;
+}
+
+.btn-stroke {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 12pt;
+    font-size: small;
+    color: black;
+    stroke-width: 1px;
+    stroke: black;
+    margin-top: 2rem;
+}
+
+/* PAGE HEADERS */
+
+.secondary-page-header {
+
+}
