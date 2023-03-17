@@ -76,7 +76,7 @@ header ul {
 }
 
 .container.hero {
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
     padding-top: 4rem;
 }
 
@@ -191,22 +191,24 @@ h1
 /* H2 */
 
 h2 {
-    font-family: 'Zilla Slab Highlight';
+    font-family: 'Zilla Slab Highlight', cursive;
     font-weight: 400;
     font-size: 35pt;
     color: black;
 }
 
-h2 .left-text {
-    display: flex;
-    justify-content: right;
-    align-content: right;
-}
-
 .hero-content h2 {
+    font-family: 'Zilla Slab', sans-serif;
+    font-weight: 400;
+    font-size: 35pt;
+    color: white;
+    background-color: black;
+
+    width: 43%;
+    margin-top: 6rem;
+    margin-left: 56.9%;
     display: flex;
     justify-content: right;
-    align-items: right;
 }
 
 /* P1 */
