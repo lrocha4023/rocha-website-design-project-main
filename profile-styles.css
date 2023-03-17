@@ -58,6 +58,7 @@ input {
     font-size: medium;
     width: 100%;
     border-collapse: collapse;
+    margin-bottom: 8rem;
 }
 
 .order-table td, .order-table th {

@@ -70,6 +70,11 @@ header ul {
     margin-left: 8rem;
 }
 
+.container.hero {
+    padding-bottom: 10rem;
+    padding-top: 4rem;
+}
+
 section {
     align-items: center;
     padding: 1.5em 0;
@@ -118,6 +123,11 @@ section.arrivals {
 .action-content {
     width: 100%;
     margin-left: 8rem;
+}
+
+.container.action {
+    padding-bottom: 10rem;
+    padding-top: 4rem;
 }
 
 section {
@@ -262,8 +272,27 @@ p {
     margin-top: 2rem;
 }
 
-/* PAGE HEADERS */
+/* FOOTER*/
+
+.footer {
+    background-color: black;
+}
+
+.footer-container {
+    
+}
+
+.footer p {
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+
+/* PAGE HEADERS
 
 .secondary-page-header {
 
-}
+}  */
