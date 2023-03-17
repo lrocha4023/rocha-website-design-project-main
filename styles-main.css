@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
@@ -21,6 +25,7 @@ a {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 /* Navbar */
@@ -108,15 +113,14 @@ section.our-brand {
 /* ARRIVALS SECTION */ 
 
 .arrivals-img {
-    margin: 0 4rem 4rem 0;
+    margin: 8rem 4rem 4rem 0;
 }
 
 section.arrivals {
-    margin: 1rem 8rem;
+    margin: 2rem 8rem;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 1.5em 0;
 }
 
 /* IN ACTION SECTION */ 
@@ -276,20 +280,56 @@ p {
 
 .footer {
     background-color: black;
+    padding: 4rem 0;
 }
 
 .footer-container {
-    
+    max-width: 82%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer ul {
+    color: white;
+    font-weight: 700;
 }
 
 .footer p {
     color: white;
+    font-weight: 700;
 }
 
 .footer a {
     color: white;
+    margin-top: .8rem;
+    font-weight: 400;
 }
 
+.copyright-container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.copyright-container .p2 {
+    font-size: 10pt;
+    font-weight: 300;
+    margin-top: 4rem;
+}
+
+.socials a {
+    margin-right: .6rem;
+}
 
 /* PAGE HEADERS
 
