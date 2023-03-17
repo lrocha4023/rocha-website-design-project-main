@@ -93,7 +93,8 @@ section.container.hero.row {
     display: flex;
     justify-content: left;
     align-items: left;
-    margin: 4rem 2rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
 }
 
 section.our-brand {
@@ -107,7 +108,7 @@ section.our-brand {
 /* ARRIVALS SECTION */ 
 
 .arrivals-img {
-    margin: 4rem 2rem;
+    margin: 0 4rem 4rem 0;
 }
 
 section.arrivals {
@@ -149,6 +150,7 @@ section.container.action.row {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .sponsors h1 {
@@ -264,11 +266,9 @@ p {
 
 .btn-stroke {
     font-family: 'Roboto', sans-serif;
-    font-weight: 12pt;
-    font-size: small;
+    font-weight: 700;
+    font-size: 12pt;
     color: black;
-    stroke-width: 1px;
-    stroke: black;
     margin-top: 2rem;
 }
 
