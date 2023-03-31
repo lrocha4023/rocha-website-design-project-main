@@ -165,7 +165,7 @@ section.container.action.row {
 /* H1 */
 h1
 {
-    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Zilla Slab Highlight';
     font-weight: 700;
     font-size: 55pt;
     color: black;
