@@ -5,11 +5,17 @@
 body {
     background-color: white;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .nav-container {
     max-width: 100%;
     margin: 2rem auto 2rem;
+}
+
+.bottom-spacing{
+    padding-bottom: 4rem;
 }
 
 a {
